@@ -3,12 +3,12 @@ import { PageHeader } from "antd";
 
 // displays a page header
 
-export default function Header() {
+export default function Header () {
   return (
     <a href="/" >
       <PageHeader
-        title="🔏 Sign in with Web3"
-        subTitle="Sign a message with your wallet to log in..."
+        title="🤖 RoboAddress"
+        subTitle="Sign a message with your wallet to generate a unique image from your address"
         style={{ cursor: "pointer" }}
       />
     </a>
